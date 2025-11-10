@@ -121,30 +121,90 @@
       <p class="mt-2 text-xs text-white/50">Or email <a href="mailto:hello@zakuralabs.com" class="underline">hello@zakuralabs.com</a></p>
     </div>
   </section>
+  
+<!-- CONTACT -->
+<section id="contact" class="p-6 rounded-2xl bg-white/5 border border-white/10 glass">
+  <div class="rounded-xl bg-white/5 p-4 border border-white/10 sm:col-span-2">
+     <div class="p-6 rounded-2xl bg-white/5 border border-white/10 glass">
+    <h2 class="text-2xl font-bold">Contact Zakura Labs</h2>
+    <p class="mt-2 text-white/70">
+      We believe in collaboration, compassion, and clarity. Whether you’re a caregiver, researcher, or partner,
+      we’re always ready to listen.
+    </p>
 
-  <!-- CONTACT -->
-  <section id="contact" class="mx-auto max-w-6xl px-4 pb-24">
-    <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
-      <h2 class="text-2xl font-bold">Contact</h2>
-      <div class="mt-3 grid sm:grid-cols-2 gap-4 text-white/80">
-        <div>
-          <div class="text-white/50 text-sm">Founder</div>
-          <div class="font-semibold">Caleb Moore</div>
-        </div>
-        <div>
-          <div class="text-white/50 text-sm">Discord</div>
-          <div class="font-semibold">shadesspark</div>
-        </div>
+
+  <div class="text-white/50 text-xs uppercase tracking-wide">Founders</div>
+  <div class="mt-1 font-semibold">Caleb Moore — Founder & CEO</div>
+  <div class="text-white/70">caleb@zakuralabs.com</div>
+  <div class="mt-3 font-semibold">Gabe Campbell — COO & Chief of the Biological Domain</div>
+  <div class="text-white/70">gabe@zakuralabs.com</div>
+</div>
+
+
+    <!-- contacts grid -->
+    <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-white/85">
+      <!-- General -->
+      <div class="rounded-xl bg-white/5 p-4 border border-white/10">
+        <div class="text-white/50 text-xs uppercase tracking-wide">General</div>
+        <div class="mt-1 font-semibold">hello@zakuralabs.com</div>
+        <a class="mt-2 inline-block text-pink-300 hover:underline" href="mailto:hello@zakuralabs.com">Email us</a>
+      </div>
+
+      <!-- Founder -->
+      <div class="rounded-xl bg-white/5 p-4 border border-white/10">
+        <div class="text-white/50 text-xs uppercase tracking-wide">Founder</div>
+        <div class="mt-1 font-semibold">Caleb Moore — Founder & CEO</div>
+        <div class="text-white/70">caleb@zakuralabs.com</div>
+        <a class="mt-2 inline-block text-pink-300 hover:underline" href="mailto:caleb@zakuralabs.com">Reach Caleb</a>
+      </div>
+
+      <!-- COO / Biological Domain -->
+      <div class="rounded-xl bg-white/5 p-4 border border-white/10">
+        <div class="text-white/50 text-xs uppercase tracking-wide">Leadership</div>
+        <div class="mt-1 font-semibold">Gabe Campbell — COO & Chief of the Biological Domain</div>
+        <div class="text-white/70">gabe@zakuralabs.com</div>
+        <a class="mt-2 inline-block text-pink-300 hover:underline" href="mailto:gabe@zakuralabs.com">Reach Gabe</a>
+      </div>
+
+      <!-- Partnerships -->
+      <div class="rounded-xl bg-white/5 p-4 border border-white/10">
+        <div class="text-white/50 text-xs uppercase tracking-wide">Partnerships</div>
+        <div class="mt-1 font-semibold">partners@zakuralabs.com</div>
+        <a class="mt-2 inline-block text-pink-300 hover:underline" href="mailto:partners@zakuralabs.com">Start a conversation</a>
+      </div>
+
+      <!-- Press -->
+      <div class="rounded-xl bg-white/5 p-4 border border-white/10">
+        <div class="text-white/50 text-xs uppercase tracking-wide">Press & Media</div>
+        <div class="mt-1 font-semibold">press@zakuralabs.com</div>
+        <a class="mt-2 inline-block text-pink-300 hover:underline" href="mailto:press@zakuralabs.com">Request information</a>
+      </div>
+
+      <!-- Care / Community -->
+      <div class="rounded-xl bg-white/5 p-4 border border-white/10">
+        <div class="text-white/50 text-xs uppercase tracking-wide">Care & Community</div>
+        <div class="mt-1 font-semibold">care@zakuralabs.com</div>
+        <a class="mt-2 inline-block text-pink-300 hover:underline" href="mailto:care@zakuralabs.com">Share your needs</a>
       </div>
     </div>
-  </section>
 
-  <footer class="border-t border-white/10">
-    <div class="mx-auto max-w-6xl px-4 py-8 text-sm text-white/50 flex items-center justify-between">
-      <span>© <span id="y"></span> Zakura Labs Inc.</span>
-      <span>For Humanity, Always.</span>
-    </div>
-  </footer>
-  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
-</body>
-</html>
+    <p class="mt-6 text-sm text-white/60">
+      Thank you for helping us create technology that serves humanity.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-white/10">
+  <div class="mx-auto max-w-6xl px-4 py-8 text-sm text-white/60 flex flex-col sm:flex-row gap-2 sm:gap-0 sm:items-center sm:justify-between">
+    <span>© <span id="year"></span> Zakura Labs Inc. • For Humanity, Always.</span>
+    <nav class="flex items-center gap-3">
+      <a class="hover:text-pink-300" href="/privacy.html">Privacy</a>
+      <span class="text-white/30">•</span>
+      <a class="hover:text-pink-300" href="/terms.html">Terms</a>
+      <span class="text-white/30">•</span>
+      <a class="hover:text-pink-300" href="#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
